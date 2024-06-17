@@ -1,0 +1,70 @@
+.Advantage {
+    width: 1064.01px;
+    height: 915px;
+    position: relative;
+
+    border-top: 2px #B1C7FF solid;
+
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.Title {
+    left: 0;
+    padding-top: 50px;
+
+    width: 400px;
+}
+
+h3 {
+    font-size: 48px;
+    line-height: 72px;
+    font-family: 'Hauora';
+
+    color: #002033;
+}
+
+p{
+    color: rgba(0, 32.38, 51, 0.70);
+}
+
+.Title p{
+    margin-top: 25px;
+}
+
+
+.advantage-items {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 25px;
+
+    width: 522px;
+    border-top: 2px #B1C7FF solid;
+}
+
+h4 {
+    width: 196px;
+
+    color: #002033;
+    font-size: 18px;
+    font-family: Hauora, sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.item p {
+    width: 305px;
+    font-size: 16px;
+    line-height: 24px;
+}

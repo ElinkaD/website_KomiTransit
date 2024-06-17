@@ -15,8 +15,10 @@
 </section>
 
 <div class="page_main">
-<?php require 'advatages.php'; 
-echo '<link rel="stylesheet" href="css/adv.css">';
+
+<?php 
+    require 'advatages.php'; 
+    echo '<link rel="stylesheet" href="css/advatages.css">';
 ?>
 
 </div>
