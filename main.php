@@ -21,6 +21,11 @@
     echo '<link rel="stylesheet" href="css/advatages.css">';
 ?>
 
+<?php 
+    require 'history.php';
+    echo '<link rel="stylesheet" href="css/history.css">'; 
+?>
+
 </div>
 
 

@@ -1,0 +1,58 @@
+.slogan h2 {
+    width: 100vw;
+    text-align: center;
+    color: #2732CE;
+    font-size: 72px;
+}
+
+.history {
+    width: 100vw;
+    padding: 54px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_history {
+    display: flex;
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+h3 {
+    width: 35vw;
+    color: #2732CE;
+    font-size: 48px;
+    font-family: Hauora, sans-serif;
+    font-weight: 700;
+    line-height: 72px;
+    word-wrap: break-word;
+}
+
+p {
+    width: 28vw; /* Adjusted to be consistent */
+    color: #002033;
+}
+
+.img-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.company-image {
+    width: 522px;
+    border-radius: 15px
+}
