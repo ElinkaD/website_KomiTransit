@@ -1,6 +1,40 @@
-<head>
-    <link rel="stylesheet" href="css/company_page.css" />
-</head>
+<style>
+.hero {
+    position: relative;
+    text-align: left;
+    color: #FEFEFE;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-text {
+    position: absolute;
+    top: 45vh;
+    left: 5vw;
+    width: 90vw;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 5px;
+}
+
+.hero-text p {
+    width: 60vw;
+    color: #FEFEFE;
+}
+</style>
 
 <section class="hero">
     <img src="img/background_company@3x.png" alt="Background Image" class="hero-image">
@@ -22,5 +56,7 @@
     echo '<link rel="stylesheet" href="css/advatages.css">';
 ?>
 </div>
+
+
 
 
