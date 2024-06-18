@@ -16,10 +16,6 @@
     width: 30vw;
 }
 
-.Title h3 {
-    color: #002033;
-}
-
 .Title p{
     margin-top: 25px;
 }
@@ -46,7 +42,6 @@
 
 .item h4 {
     width: 196px;
-    color: #002033;
 }
 
 .item p {

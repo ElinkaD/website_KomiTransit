@@ -49,9 +49,11 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
+
+    color: #002033;
 }
 p{
-    font-family: 'Hauora';
+    font-family: Hauora, sans-serif;
     font-size: 18px;
     line-height: 1.5;
     font-weight: 400;
@@ -88,5 +90,6 @@ h4 {
     align-items: center;
 
     gap: 200px; /* Расстояние между элементами внутри контейнера */
-    padding: 200px 0; /* Внутренний отступ сверху и снизу контейнера */
+
+    margin: 200px 0;
 }

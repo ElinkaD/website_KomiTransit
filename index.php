@@ -48,6 +48,11 @@
     echo '</nav>';
     include '' . $page . '.php';
     ?>
+
+    <?php 
+    require 'footer.php';
+    echo '<link rel="stylesheet" href="css/footer.css">'; 
+    ?>
 </body>
 </html>
 
