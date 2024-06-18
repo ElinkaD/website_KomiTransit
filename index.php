@@ -14,12 +14,12 @@
     <?php
     // Определение массива сопоставлений страниц и их названий
     $map = [
-        'main' => 'ГЛАВНАЯ',
-        'company' => 'КОМПАНИЯ',
-        'serveces' => 'УСЛУГИ',
-        'contacts' => 'КОНТАКТЫ',
-        'rewiew' => 'ОТЗЫВЫ',
-        'faq' => 'ВОПРОСЫ'
+        'main_page' => 'ГЛАВНАЯ',
+        'company_page' => 'КОМПАНИЯ',
+        'serveces_page' => 'УСЛУГИ',
+        'contacts_page' => 'КОНТАКТЫ',
+        'rewiew_page' => 'ОТЗЫВЫ',
+        'faq_page' => 'ВОПРОСЫ'
     ];
 
     // Получение значения параметра 'page' из URL и его очистка
@@ -27,7 +27,7 @@
 
     // Проверка, пуста ли страница или отсутствует в массиве $map
     if (empty($page) || !array_key_exists($page, $map)) {
-        header('Location: index.php?page=main');
+        header('Location: index.php?page=main_page');
         exit();
     }
 
@@ -38,7 +38,7 @@
     // Генерация HTML-кода меню
     echo '<ul class="menu">';
     foreach ($map as $key => $item) {
-        if ($key == 'main') {
+        if ($key == 'main_page') {
             continue; // Пропускаем элемент с ключом 'main'
         }
         $class = ($page == $key) ? 'class="active"' : '';

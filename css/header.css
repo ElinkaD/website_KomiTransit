@@ -31,6 +31,10 @@
     color: #FEFEFE;
     transition: color .3s linear;
 }
+.menu-main a.active {
+    color: #D8315B;
+    pointer-events: none;
+}
 
 .menu-main a:hover {
     color: #140C9C;
