@@ -31,14 +31,14 @@
                 <div class="nav-links">
                 <h4>Навигация</h4>
                     <ul>
-                        <li><a href="main_page.php">Главная</a></li>
-                        <li><a href="company_page.php">Компания</a></li>
-                        <li><a href="serveces_page.php">Услуги</a></li>
+                        <li><a href="index.php?page=main_page">Главная</a></li>
+                        <li><a href="index.php?page=company_page">Компания</a></li>
+                        <li><a href="index.php?page=serveces_page">Услуги</a></li>
                     </ul>
                     <ul>
-                        <li><a href="contacts_page.php">Контакты</a></li>
-                        <li><a href="rewiew_page.php">Отзывы</a></li>
-                        <li><a href="serveces_page.php">Вопросы</a></li>
+                        <li><a href="index.php?page=contacts_page">Контакты</a></li>
+                        <li><a href="index.php?page=rewiew_page">Отзывы</a></li>
+                        <li><a href="index.php?page=faq_page">Вопросы</a></li>
                     </ul>
                 </div>
             </nav>
