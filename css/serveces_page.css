@@ -1,0 +1,15 @@
+.menu-main a {
+    color: #140C9C;
+}
+
+.menu-main a:hover {
+    color: #D8315B;
+}
+
+.menu-main a:after {
+    color: #D8315B;
+}
+
+.menu-main a:hover:after {
+    color: #D8315B;
+}

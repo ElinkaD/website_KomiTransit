@@ -29,7 +29,7 @@
             <h1>ООО<br/>КОМИ<br/>ТРАНЗИТ</h1>
             <nav class="navigation">
                 <div class="nav-links">
-                <h4>Навигация</h4>
+                <h5>Навигация</h5>
                     <ul>
                         <li><a href="index.php?page=main_page">Главная</a></li>
                         <li><a href="index.php?page=company_page">Компания</a></li>
