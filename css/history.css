@@ -6,7 +6,6 @@
 }
 
 .history {
-    width: 100vw;
     padding: 54px 0;
 
     display: flex;
@@ -31,7 +30,7 @@
 }
 
 .left h3 {
-    width: 35vw;
+    width: 33vw;
     color: #2732CE;
 }
 

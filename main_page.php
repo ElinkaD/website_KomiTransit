@@ -34,6 +34,7 @@
 <?php 
     require 'photobank.php';
     echo '<link rel="stylesheet" href="css/photobank.css">'; 
+    echo '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">'; 
 ?>
 
 </div>
