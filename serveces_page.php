@@ -1,4 +1,5 @@
 <style>
+/* header */
 .menu-main a {
     color: #140C9C;
 }
@@ -11,7 +12,7 @@
 .menu-main a:hover:after {
     color: #D8315B;
 }
-
+/* inner title */
 .hero {
     position: relative;
     text-align: left;

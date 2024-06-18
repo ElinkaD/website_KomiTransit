@@ -1,4 +1,5 @@
 <style>
+/* inner title */
 .hero {
     position: relative;
     text-align: left;
@@ -7,7 +8,6 @@
     width: 100vw;
     height: 100vh;
 }
-
 .hero-image {
     width: 100%;
     height: 100%;
@@ -17,7 +17,6 @@
     left: 0;
     z-index: -1;
 }
-
 .hero-text {
     position: absolute;
     top: 45vh;
@@ -29,7 +28,6 @@
     height: 100%;
     gap: 5px;
 }
-
 .hero-text p {
     width: 60vw;
     color: #FEFEFE;
