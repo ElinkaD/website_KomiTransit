@@ -37,6 +37,11 @@
     echo '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">'; 
 ?>
 
+<?php 
+    require 'faq.php';
+    echo '<link rel="stylesheet" href="css/faq.css">'; 
+?>
+
 </div>
 
 

@@ -1,46 +1,44 @@
-<div class="Faq" style="width: 1280px; height: 514px; position: relative">
-    <div class="Frame3748" style="left: 216.86px; top: 113.86px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 25px; display: inline-flex">
-        <div style="height: 75px; position: relative">
-        <div class="Frame3749" style="width: 846px; height: 50px; left: 0.14px; top: 25px; position: absolute; justify-content: flex-start; align-items: center; gap: 59px; display: inline-flex">
-            <div style="width: 737px; color: #002033; font-size: 18px; font-family: Hauora; font-weight: 400; line-height: 27px; word-wrap: break-word">Какие грузы можно отправлять через ваш тупик?</div>
-            <div style="width: 50px; height: 50px; position: relative">
-            <div class="Line7" style="width: 50px; height: 0px; left: 25px; top: 0px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; border: 2px #2732CE solid"></div>
-            <div class="Line8" style="width: 50px; height: 0px; left: 0px; top: 25px; position: absolute; border: 2px #2732CE solid"></div>
+<section class="faq">
+    <h3>Ответы на частые вопросы</h3>
+
+    <div class="faq-list">
+        <div id="accordion-js">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <p>Какие грузы можно отправлять через ваш тупик?</p>
+                    <img src="img/svg/+.svg" alt="+" class="toggle-icon">
+                </div>
+                <div class="faq-answer"><p>Ответ: Можно отправлять грузы ...</p></div>
             </div>
-        </div>
-        <div class="Line4" style="width: 846.14px; height: 0px; left: 0px; top: 0px; position: absolute; border: 2px #2732CE solid"></div>
-        </div>
-        <div style="height: 75px; position: relative">
-        <div class="Frame3749" style="width: 846px; height: 50px; left: 0.14px; top: 25px; position: absolute; justify-content: flex-start; align-items: center; gap: 59px; display: inline-flex">
-            <div style="width: 737px; color: #002033; font-size: 18px; font-family: Hauora; font-weight: 400; line-height: 27px; word-wrap: break-word">Как можно проехать  к вам от города Усинска?</div>
-            <div style="width: 50px; height: 50px; position: relative">
-            <div class="Line7" style="width: 50px; height: 0px; left: 25px; top: 0px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; border: 2px #2732CE solid"></div>
-            <div class="Line8" style="width: 50px; height: 0px; left: 0px; top: 25px; position: absolute; border: 2px #2732CE solid"></div>
+        
+            <div class="faq-item">
+                <div class="faq-question">
+                    <p>Как можно проехать к вам от города Усинска?</p>
+                    <img src="img/svg/+.svg" alt="+" class="toggle-icon">
+                </div>
+                <div class="faq-answer"><p>Ответ: Можно отправлять грузы ...</p></div>
             </div>
-        </div>
-        <div class="Line4" style="width: 846.14px; height: 0px; left: 0px; top: 0px; position: absolute; border: 2px #2732CE solid"></div>
-        </div>
-        <div style="height: 75px; position: relative">
-        <div class="Frame3749" style="width: 846px; height: 50px; left: 0.14px; top: 25px; position: absolute; justify-content: flex-start; align-items: center; gap: 59px; display: inline-flex">
-            <div style="width: 737px; color: #002033; font-size: 18px; font-family: Hauora; font-weight: 400; line-height: 27px; word-wrap: break-word">Какие типы вагонов могут быть использованы для погрузки и разгрузки?</div>
-            <div style="width: 50px; height: 50px; position: relative">
-            <div class="Line7" style="width: 50px; height: 0px; left: 25px; top: 0px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; border: 2px #2732CE solid"></div>
-            <div class="Line8" style="width: 50px; height: 0px; left: 0px; top: 25px; position: absolute; border: 2px #2732CE solid"></div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <p>Какие типы вагонов могут быть использованы для погрузки и разгрузки?</p>
+                    <img src="img/svg/+.svg" alt="+" class="toggle-icon">
+                </div>
+                <div class="faq-answer"><p>Ответ: Можно отправлять грузы ...</p></div>
             </div>
-        </div>
-        <div class="Line4" style="width: 846.14px; height: 0px; left: 0px; top: 0px; position: absolute; border: 2px #2732CE solid"></div>
-        </div>
-        <div style="height: 75px; position: relative">
-        <div class="Frame3749" style="width: 846px; height: 50px; left: 0.14px; top: 25px; position: absolute; justify-content: flex-start; align-items: center; gap: 59px; display: inline-flex">
-            <div style="width: 737px; color: #002033; font-size: 18px; font-family: Hauora; font-weight: 400; line-height: 27px; word-wrap: break-word">Какой график работы тупика?</div>
-            <div style="width: 50px; height: 50px; position: relative">
-            <div class="Line7" style="width: 50px; height: 0px; left: 25px; top: 0px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; border: 2px #2732CE solid"></div>
-            <div class="Line8" style="width: 50px; height: 0px; left: 0px; top: 25px; position: absolute; border: 2px #2732CE solid"></div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <p>Какой график работы тупика?</p>
+                    <img src="img/svg/+.svg" alt="+" class="toggle-icon">
+                </div>
+                <div class="faq-answer"><p>Ответ: Можно отправлять грузы ...</p></div>
             </div>
-        </div>
-        <div class="Line4" style="width: 846.14px; height: 0px; left: 0px; top: 0px; position: absolute; border: 2px #2732CE solid"></div>
-        </div>
-        <div class="Line5" style="width: 846.14px; height: 0px; border: 2px #2732CE solid"></div>
+
+            <div class="faq-question"></div>
     </div>
-    <div style="width: 487px; height: 55.07px; left: 0px; top: 0px; position: absolute; color: black; font-size: 32px; font-family: Relic; font-weight: 700; line-height: 48px; word-wrap: break-word">Ответы на частые вопросы</div>
-</div>
+</section>
+
+<script src="js/faq.js"></script>
+
+
