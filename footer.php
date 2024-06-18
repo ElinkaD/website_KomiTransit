@@ -33,7 +33,7 @@
                     <ul>
                         <li><a href="index.php?page=main_page">Главная</a></li>
                         <li><a href="index.php?page=company_page">Компания</a></li>
-                        <li><a href="index.php?page=serveces_page">Услуги</a></li>
+                        <li><a href="index.php?page=services_page">Услуги</a></li>
                     </ul>
                     <ul>
                         <li><a href="index.php?page=contacts_page">Контакты</a></li>

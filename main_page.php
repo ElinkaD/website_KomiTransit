@@ -2,7 +2,7 @@
     <link rel="stylesheet" href="css/main_page.css" />
 </head>
 
-<section class="hero">
+<section class="hero_main">
     <div class="container">
         <div class="text-block">
             <h1>ООО<br>Коми</h1>
@@ -27,8 +27,8 @@
 ?>
 
 <?php 
-    require 'serveces.php';
-    echo '<link rel="stylesheet" href="css/serveces.css">'; 
+    require 'services.php';
+    echo '<link rel="stylesheet" href="css/services.css">'; 
 ?>
 
 <?php 

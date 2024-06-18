@@ -1,13 +1,13 @@
 <style>
-/* inner title */
 .hero {
     position: relative;
-    text-align: left;
     color: #FEFEFE;
-
-    width: 100vw;
     height: 100vh;
 }
+.hero h4{
+    color: #F0F2F2
+}
+
 .hero-image {
     width: 100%;
     height: 100%;
@@ -17,21 +17,12 @@
     left: 0;
     z-index: -1;
 }
-.hero-text {
-    position: absolute;
-    top: 45vh;
-    left: 5vw;
-    width: 90vw;
 
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    gap: 5px;
-}
 .hero-text p {
     width: 60vw;
     color: #FEFEFE;
 }
+
 </style>
 
 <section class="hero">

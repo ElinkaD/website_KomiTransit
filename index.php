@@ -16,10 +16,13 @@
     $map = [
         'main_page' => 'ГЛАВНАЯ',
         'company_page' => 'КОМПАНИЯ',
-        'serveces_page' => 'УСЛУГИ',
+        'services_page' => 'УСЛУГИ',
         'contacts_page' => 'КОНТАКТЫ',
         'rewiew_page' => 'ОТЗЫВЫ',
-        'faq_page' => 'ВОПРОСЫ'
+        'faq_page' => 'ВОПРОСЫ',
+        'service01' => 'УСЛУГА1',
+        'service02' => 'УСЛУГА2',
+        'service03' => 'УСЛУГА3'
     ];
 
     // Получение значения параметра 'page' из URL и его очистка
@@ -38,7 +41,7 @@
     // Генерация HTML-кода меню
     echo '<ul class="menu">';
     foreach ($map as $key => $item) {
-        if ($key == 'main_page') {
+        if ($key == 'main_page' || $key == 'service01' || $key == 'service02' || $key == 'service03') {
             continue; // Пропускаем элемент с ключом 'main'
         }
         $class = ($page == $key) ? 'class="active"' : '';
